@@ -1,0 +1,130 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1{
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   font-size: 5.625rem;
+   color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+}
+span{
+  text-decoration: underline;
+}
+hr{
+  border-style: dotted;
+  color: grey;
+  border-width: 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.top-container{
+  background-color: #E4F9F5;
+  padding-top:100px;
+  position: relative;
+}
+.middle-container{
+margin: 100px 0;
+}
+.bottom-container{
+background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+.topcloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottomcloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.personal-image{
+  border-radius: 50%;
+  width: 15%;
+}
+.design-development{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.javaScript-image{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 12px;
+  padding: 20px 0;
+
+}
+.react-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2.5;
+}
+.first-hr{
+
+}
+.contact-message{
+  text-align: center;
+  margin: 40px auto 60px;
+}
+.btn {
+	box-shadow: 0px -1px 0px 2px #11cdd4;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #11cdd4;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+}
